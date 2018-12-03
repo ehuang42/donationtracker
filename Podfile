@@ -6,6 +6,7 @@ pod 'Firebase/Core'
 # [START auth_pod]
 pod 'Firebase/Auth'
 # [END auth_pod]
+pod 'Firebase/Database'
 
 # These are pods used for the auth providers.
 pod 'FBSDKLoginKit'

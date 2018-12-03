@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0F1C13ED21B589E700EECB08 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C13EC21B589E700EECB08 /* SingUpViewController.swift */; };
 		0F1C13EF21B58AA300EECB08 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C13EE21B58AA300EECB08 /* HomeViewController.swift */; };
+		0F1C13F321B5B01A00EECB08 /* LocationData.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0F1C13F221B5B01A00EECB08 /* LocationData.csv */; };
+		0F1C13F521B5B08F00EECB08 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C13F421B5B08F00EECB08 /* Location.swift */; };
 		0F8DF7F921B57815002D5FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8DF7F821B57815002D5FE8 /* AppDelegate.swift */; };
 		0F8DF7FB21B57815002D5FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8DF7FA21B57815002D5FE8 /* ViewController.swift */; };
 		0F8DF7FE21B57815002D5FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F8DF7FC21B57815002D5FE8 /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 		0382E031A704440A20A2C8AA /* Pods_donationtracker2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_donationtracker2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1C13EC21B589E700EECB08 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		0F1C13EE21B58AA300EECB08 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0F1C13F221B5B01A00EECB08 /* LocationData.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LocationData.csv; path = ../../../../Downloads/LocationData.csv; sourceTree = "<group>"; };
+		0F1C13F421B5B08F00EECB08 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		0F8DF7F521B57815002D5FE8 /* donationtracker2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donationtracker2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8DF7F821B57815002D5FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F8DF7FA21B57815002D5FE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +118,7 @@
 		0F8DF7F721B57815002D5FE8 /* donationtracker2 */ = {
 			isa = PBXGroup;
 			children = (
+				0F1C13F221B5B01A00EECB08 /* LocationData.csv */,
 				0F8DF82821B57A95002D5FE8 /* GoogleService-Info.plist */,
 				0F8DF7F821B57815002D5FE8 /* AppDelegate.swift */,
 				0F8DF7FA21B57815002D5FE8 /* ViewController.swift */,
@@ -124,6 +129,7 @@
 				0F8DF80121B57816002D5FE8 /* LaunchScreen.storyboard */,
 				0F8DF80421B57816002D5FE8 /* Info.plist */,
 				0F1C13EE21B58AA300EECB08 /* HomeViewController.swift */,
+				0F1C13F421B5B08F00EECB08 /* Location.swift */,
 			);
 			path = donationtracker2;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 				0F8DF80321B57816002D5FE8 /* LaunchScreen.storyboard in Resources */,
 				0F8DF82921B57A95002D5FE8 /* GoogleService-Info.plist in Resources */,
 				0F8DF80021B57816002D5FE8 /* Assets.xcassets in Resources */,
+				0F1C13F321B5B01A00EECB08 /* LocationData.csv in Resources */,
 				0F8DF7FE21B57815002D5FE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,6 +395,7 @@
 				0F8DF82721B579B5002D5FE8 /* LogInController.swift in Sources */,
 				0F1C13ED21B589E700EECB08 /* SingUpViewController.swift in Sources */,
 				0F8DF7F921B57815002D5FE8 /* AppDelegate.swift in Sources */,
+				0F1C13F521B5B08F00EECB08 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
