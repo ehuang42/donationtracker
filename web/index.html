@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>iphone5 Sign In Form Flat Responsive Widget Template  :: w3layouts</title>
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="iphone5 Sign In Form,Login Forms,Sign up Forms,Registration Forms,News latter Forms,Elements"./>
+
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase-database.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBo_aEWFYQOCqHGu5PT7JcfUkOYH2qJAKc",
+    authDomain: "cs2340group03.firebaseapp.com",
+    databaseURL: "https://cs2340group03.firebaseio.com",
+    projectId: "cs2340group03",
+    storageBucket: "cs2340group03.appspot.com",
+    messagingSenderId: "797196122365"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<body>
+	<div class="buttons">
+		<ul>
+			<li><a href="./untitled.html" class="hvr-sweep-to-right">Sign out</a></li>
+			<script type="text/javascript">
+				firebase.auth().signOut();
+			</script>
+		</ul>
+	</div>
+	
+</body>
+
+</html>
