@@ -14,6 +14,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,9 +39,20 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 shouldPerform = false;
             }
         }
+
         return shouldPerform
     }
-    
+    @IBAction func resetAction(_ sender: Any?) {
+        if let email = emailField.text, !email.isEmpty, let password = passwordField.text, password.count == 0 {
+            Auth.auth().sendPasswordReset(withEmail: "ehuang42@gatech.edu") { error in
+                // Your code here
+                
+            }
+            //self.performSegue(withIdentifier: "loginToHome", sender: self)
+        }
+        
+
+    }
     @IBAction func loginAction(_ sender: Any?) {
         
         //TODO: Actually validate password
